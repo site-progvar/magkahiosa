@@ -1,3 +1,5 @@
 MagkahiOSA Project
 
-Programmer's Varsity
+Programmer's Varsity Project
+
+//place logos here
