@@ -32,7 +32,7 @@
 
 ### 6. Copy env.example and change it to .env
 
-    cp .env.example .env
+    cp .env.example .env 
 
 ### 7. Configure env file
 

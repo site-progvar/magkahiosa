@@ -1,51 +1,63 @@
 @import '../../vendor/filament/forms/dist/module.esm.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
 @layer components {
-    .login-color{
-        color: rgba(59, 59, 59, 0.746);
+    
+    .input-container{
+        @apply mb-5 w-full relative;
     }
-    .login-font-size{
-        font-size: .8rem;
+    .input-text{
+        @apply font-semibold text-xs text-[#4B5563] m-0 mb-2;
     }
-    .forgot{
-        transition: 600ms ease-in-out;
+
+    .input-input{
+        @apply m-0  py-2 px-[3%] text-[#1F2937] outline-none  bg-white font-medium
+         text-sm border border-[#dbd1d1] focus:ring-0  rounded w-[100%] h-10 focus:border-[#1D4ED8];
     }
+    .input-warning {
+        @apply m-0 font-semibold text-xs text-red-600 mt-[2px] ml-[2px];
+      }
+
     .form-container{
-        margin: 0px 2% 0px;
-        align-items: center;
+        @apply m-0 mx-[2%] items-center;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         transition: 600ms ease-in-out;
     }
-    .text-size{
-        font-size: .74rem;
-        color: #4B5563;
-        font-family: 'Inter', sans-serif;
-    }
-    .input-text{
-        font-family: 'Inter', sans-serif;
-        color: #1F2937;
-        outline: none;
-        font-size: .88rem;
-        border: 1px solid #D1D5DB;
-        border-radius: 4px;
-        padding: 8px 3% 8px;
-    }
-    .input-focus{
-        border: 1px solid #1D4ED8;
-    }
+    
     .button{
-        border: none;
-        border-radius: 3px;
-        background: #1D4ED8;
+        @apply border-none rounded bg-[#1D4ED8] hover:bg-[#073dd0] w-full h-[2.5rem] text-white text-[.8rem] cursor-pointer mt-6;
     }
-    .button-hover{
-        background: #143eb0;
-    }
-    .transition-new{
+    .logo{
+        @apply flex items-center justify-center z-10   h-[120px] w-[578px]  mt-[120px] mb-5
+        sm:mt-[3vh] sm:h-[120px] sm:w-[278p] sm:mb-[2vh] 
+        ;
         transition: 600ms ease-in-out;
     }
+    .header-font{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .hr{
+        @apply mb-[20px] w-4/5 self-center border-none h-[30px]  flex justify-center p-0 gap-[60px];
+
+    }
+    .line{ 
+        @apply h-[30px] w-[30%] border-b-[1px] border-[#0606062b];
+
+       
+    }
+    .forgot-pass-text{
+        @apply self-start text-[11px] pb-[21.672px] cursor-pointer z-10 my-[11.200px];
+
+
   }
+}
