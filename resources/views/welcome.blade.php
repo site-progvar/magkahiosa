@@ -69,8 +69,6 @@
                         </div>
                     </div>
                 </div>
-                
-                
                 <div class=" min-w-[578px] min-h-[545px] duration-500 ease-in-out bg-white rounded-[10px] flex flex-col items-center form-container
                             sm:min-w-[364px] sm:min-h-[350px] sm:mx-[200px]
                 ">
