@@ -28,10 +28,7 @@
       }
 
     .form-container{
-        
-
-        margin: 0px 2% 0px;
-        align-items: center;
+        @apply m-0 mx-[2%] items-center;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         transition: 600ms ease-in-out;
     }
@@ -43,6 +40,7 @@
         @apply flex items-center justify-center z-10   h-[120px] w-[578px]  mt-[120px] mb-5
         sm:mt-[3vh] sm:h-[120px] sm:w-[278p] sm:mb-[2vh] 
         ;
+        transition: 600ms ease-in-out;
     }
     .header-font{
         font-family: 'Roboto', sans-serif;
