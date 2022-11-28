@@ -76,11 +76,11 @@
                 </div>
                 
                 
-                <div class=" min-w-[578px] min-h-[474px] duration-500 ease-in-out bg-white rounded-[10px] flex flex-col items-center form-container
+                <div class=" min-w-[578px] min-h-[545px] duration-500 ease-in-out bg-white rounded-[10px] flex flex-col items-center form-container
                             sm:min-w-[364px] sm:min-h-[350px] sm:mx-[200px]
                 ">
-                    <form class="mt-[14%] flex items-start flex-col w-[75%] flex-wrap mb-[5%]">
-                        <h3 class="mb-[2.5rem] text-[19px] font-bold ">
+                    <form class="mt-[80.906px] flex items-start flex-col w-[75%] flex-wrap mb-[5%] ">
+                        <h3 class="mb-[40px] text-[19px] font-bold ">
                             Log In to your account
                         </h3>
                         <div class="input-container">

@@ -28,6 +28,8 @@
       }
 
     .form-container{
+        
+
         margin: 0px 2% 0px;
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -64,7 +66,7 @@
         border-bottom: 1px solid rgba(0, 0, 0, 0.144);
     }
     .forgot-pass-text{
-        @apply self-start text-xs pb-[5%] cursor-pointer z-10 my-[20px];
+        @apply self-start text-[11px] pb-[5%] cursor-pointer z-10 my-[20px];
 
 
   }
