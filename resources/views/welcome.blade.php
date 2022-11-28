@@ -401,7 +401,7 @@
 
         {{-- screen for forgot password --}}
         <div
-            class="forgotPage opacity-0 z-20 absolute h-screen w-screen flex flex-col items-center justify-center bg-white">
+            class="forgotPage opacity-0 z-20 absolute h-screen w-screen flex flex-col items-center justify-center ">
             <div
                 class=" min-w-[578px] min-h-[474px] duration-500 ease-in-out bg-white rounded-[10px] flex flex-col items-center form-container
                             sm:min-w-[364px] sm:min-h-[350px] sm:mx-[200px]">
@@ -480,19 +480,21 @@
     </div>
 
     <script>
-        const forgotPage = document.querySelector('.forgotPage')
-        const loginPage = document.querySelector('.loginPage')
+        const forgotPage = document.querySelector('.forgotPage').classList
+        const loginPage = document.querySelector('.loginPage').classList
 
         function show() {
-            forgotPage.className =
-                "forgotPage  opacity-100 z-30 absolute h-screen w-screen flex flex-col items-center justify-center bg-white"
-            loginPage.className = "loginPage  opacity-0 z-20 h-screen flex flex-col items-center justify-start bg-white"
+            forgotPage.replace('opacity-0','opacity-100')
+            forgotPage.replace('z-20','z-30')
+            loginPage.replace('opacity-100','opacity-0')
+            loginPage.replace('z-30','z-20')
         }
 
         function hide() {
-            forgotPage.className =
-                "forgotPage  opacity-0 z-20 absolute h-screen w-screen flex flex-col items-center justify-center bg-white"
-            loginPage.className = "loginPage  opacity-100 z-30 h-screen flex flex-col items-center justify-start bg-white"
+            forgotPage.replace('opacity-100','opacity-0')
+            forgotPage.replace('z-30','z-20')
+            loginPage.replace('opacity-0','opacity-100')
+            loginPage.replace('z-20','z-30')
         }
     </script>
 </body>
