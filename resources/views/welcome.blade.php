@@ -31,10 +31,9 @@
 
 
             {{-- screen for forgot password --}}
-            <div class="forgotPage forgot opacity-0 z-20 absolute h-screen w-screen flex flex-col items-center justify-center bg-white">
+            <div class="forgotPage opacity-0 z-20 absolute h-screen w-screen flex flex-col items-center justify-center bg-white">
                 <div class=" min-w-[578px] min-h-[474px] duration-500 ease-in-out bg-white rounded-[10px] flex flex-col items-center form-container
-                            sm:min-w-[364px] sm:min-h-[350px] sm:mx-[200px]
-                ">
+                            sm:min-w-[364px] sm:min-h-[350px] sm:mx-[200px]">
                     <form class="mt-[14%] flex items-start flex-col w-[75%] flex-wrap mb-[5%]">
                         <h3 class="mb-[2.5rem] font-medium ">
                             Forgot password
@@ -48,27 +47,26 @@
                         </div>
                         <div class="input-container">
                             <p class="input-text">
-                                Confirm password
-                            </p>
+                                Confirm password</p>
                             <input class="input-input" type="text" placeholder="Confirm password" required>
                             <p class="input-warning"></p>
                         </div>
                         <button class=" button ">Login</button>
-                        <h4 class="text-[#616161] cursor-pointer font-bold mt-5 pb-3" onclick="hide()">←  back</h4>
+                        <h4 class="text-[#616161] cursor-pointer font-bold mt-5 pb-3 hover:text-[#444444]" onclick="hide()">←  back</h4>
                     </form>
                 </div>
             </div>
             {{--/end screen for forgot password --}}
 
             {{-- screen for login --}}
-            <div class="loginPage forgot opacity-100 z-30 h-screen flex flex-col items-center justify-start bg-white">
+            <div class="loginPage opacity-100 z-30 h-screen flex flex-col items-center justify-start bg-white">
                 <div class="logo">
                     <div class="flex gap-3 items-center justify-center">
                         <img  class="h-[20%] w-[20%]  object-contain"  src="{{URL::to('/image/MagkahiOSA Logo.svg')}}" alt="">
                     
                         <div>
                             <h3 class=' font-black text-5xl sm:text-3xl text-[#1b1855] header-font' >MAGKAHI<span class="text-[#fab415]">OSA</span> </h3>
-                            <p class=' text-[19px] sm:text-[12px] tracking-[.28rem] sm:tracking-[.17rem] text-[#0d0d0d] font-normal   m-0 '>CENTRALIZE &nbsp;PLATFORM</p>
+                            <p class=' text-[19px] sm:text-[12px] tracking-[.28rem] sm:tracking-[.17rem] text-[#0d0d0d] font-normal   m-0  '>CENTRALIZE &nbsp;PLATFORM</p>
                         </div>
                     </div>
                     
@@ -103,7 +101,7 @@
                             <div class="line"></div>
                             <div class="line"></div>
                         </div>
-                        <p class="forgot-pass-text" onclick="show()">Forgot your password?<br />
+                        <p class="forgot-pass-text " onclick="show()">Forgot your password?<br />
                             Contact your administrator</p>
                     </form>
                 </div>
@@ -115,14 +113,14 @@
             const forgotPage = document.querySelector('.forgotPage')
             const loginPage = document.querySelector('.loginPage')
             function show(){
-                forgotPage.className = "forgotPage forgot  opacity-100 z-30 absolute h-screen w-screen flex flex-col items-center justify-center bg-white"
-                loginPage.className = "loginPage forgot  opacity-0 z-20 h-screen flex flex-col items-center justify-start bg-white"
+                forgotPage.className = "forgotPage  opacity-100 z-30 absolute h-screen w-screen flex flex-col items-center justify-center bg-white"
+                loginPage.className = "loginPage  opacity-0 z-20 h-screen flex flex-col items-center justify-start bg-white"
                 console.log("show")
             }
 
             function hide(){
-                forgotPage.className = "forgotPage forgot  opacity-0 z-20 absolute h-screen w-screen flex flex-col items-center justify-center bg-white"
-                loginPage.className = "loginPage forgot  opacity-100 z-30 h-screen flex flex-col items-center justify-start bg-white"
+                forgotPage.className = "forgotPage  opacity-0 z-20 absolute h-screen w-screen flex flex-col items-center justify-center bg-white"
+                loginPage.className = "loginPage  opacity-100 z-30 h-screen flex flex-col items-center justify-start bg-white"
                 console.log("hide")
             }
         </script>

@@ -47,21 +47,13 @@
     }
 
     .hr{
-        @apply mb-[20px];
-            width: 80%;
-            align-self: center;
-            border: none;
-            height: 30px;
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: center;
-            padding: 0;
-            gap: 60px; 
+        @apply mb-[20px] w-4/5 self-center border-none h-[30px]  flex justify-center p-0 gap-[60px];
+
     }
     .line{ 
-        height: 30px;
-        width: 30%;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+        @apply h-[30px] w-[30%] border-b-[1px] border-[#0606062b];
+
+       
     }
     .forgot-pass-text{
         @apply self-start text-[11px] pb-[21.672px] cursor-pointer z-10 my-[11.200px];
