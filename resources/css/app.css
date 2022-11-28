@@ -3,3 +3,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .login-color{
+        color: rgba(59, 59, 59, 0.746);
+    }
+    .login-font-size{
+        font-size: .8rem;
+    }
+    .forgot{
+        transition: 600ms ease-in-out;
+    }
+    .form-container{
+        margin: 0px 2% 0px;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        transition: 600ms ease-in-out;
+    }
+    .text-size{
+        font-size: .74rem;
+        color: #4B5563;
+        font-family: 'Inter', sans-serif;
+    }
+    .input-text{
+        font-family: 'Inter', sans-serif;
+        color: #1F2937;
+        outline: none;
+        font-size: .88rem;
+        border: 1px solid #D1D5DB;
+        border-radius: 4px;
+        padding: 8px 3% 8px;
+    }
+    .input-focus{
+        border: 1px solid #1D4ED8;
+    }
+    .button{
+        border: none;
+        border-radius: 3px;
+        background: #1D4ED8;
+    }
+    .button-hover{
+        background: #143eb0;
+    }
+    .transition-new{
+        transition: 600ms ease-in-out;
+    }
+  }
