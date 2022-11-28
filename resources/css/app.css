@@ -11,7 +11,7 @@
 }
 
 @layer components {
-    
+
     .input-container{
         @apply mb-5 w-full relative;
     }
@@ -32,32 +32,27 @@
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         transition: 600ms ease-in-out;
     }
-    
+
     .button{
         @apply border-none rounded bg-[#1D4ED8] hover:bg-[#073dd0] w-full h-[2.5rem] text-white text-[.8rem] cursor-pointer mt-6;
     }
     .logo{
         @apply flex items-center justify-center z-10   h-[120px] w-[578px]  mt-[120px] mb-5
-        sm:mt-[3vh] sm:h-[120px] sm:w-[278p] sm:mb-[2vh] 
+        sm:mt-[3vh] sm:h-[120px] sm:w-[278p] sm:mb-[2vh]
         ;
         transition: 600ms ease-in-out;
     }
     .header-font{
         font-family: 'Roboto', sans-serif;
     }
-
     .hr{
         @apply mb-[20px] w-4/5 self-center border-none h-[30px]  flex justify-center p-0 gap-[60px];
-
     }
-    .line{ 
+    .line{
         @apply h-[30px] w-[30%] border-b-[1px] border-[#0606062b];
-
-       
     }
     .forgot-pass-text{
         @apply self-start text-[11px] pb-[21.672px] cursor-pointer z-10 my-[11.200px];
-
-
   }
+
 }
