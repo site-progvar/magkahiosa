@@ -63,14 +63,11 @@
                 <div class="logo">
                     <div class="flex gap-3 items-center justify-center">
                         <img  class="h-[20%] w-[20%]  object-contain"  src="{{URL::to('/image/MagkahiOSA Logo.svg')}}" alt="">
-                    
                         <div>
                             <h3 class=' font-black text-5xl sm:text-3xl text-[#1b1855] header-font' >MAGKAHI<span class="text-[#fab415]">OSA</span> </h3>
                             <p class=' text-[19px] sm:text-[12px] tracking-[.28rem] sm:tracking-[.17rem] text-[#0d0d0d] font-normal   m-0  '>CENTRALIZE &nbsp;PLATFORM</p>
                         </div>
                     </div>
-                    
-                    
                 </div>
                 
                 
