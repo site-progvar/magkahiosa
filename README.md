@@ -6,12 +6,12 @@
 
 ## Dependencies
 
-- php
-- composer
-- local database (mysql || xampp || lamp || postgresql || any)
-- nodejs
-- git
-  
+-   php
+-   composer
+-   local database (mysql || xampp || lamp || postgresql || any)
+-   nodejs
+-   git
+
 ## Setup
 
 ### 1. Fork this repository
@@ -32,7 +32,11 @@
 
 ### 6. Copy env.example and change it to .env
 
+<<<<<<< HEAD
     cp .env.example .env 
+=======
+    cp .env.example .env
+>>>>>>> 517001b4191123cd281bfcddad4dafecbd3d108f
 
 ### 7. Configure env file
 
