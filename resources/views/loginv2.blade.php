@@ -398,9 +398,8 @@
         </code>
 
 
-
-        <div
-            class="forgotPage opacity-0  z-20 absolute h-screen bg-white w-screen flex flex-col items-center justify-center ">
+        {{-- Forgot Password Page --}}
+        <div class="forgotPage opacity-0  z-20 absolute h-screen bg-white w-screen flex flex-col items-center justify-center ">
             <div
                 class=" min-w-[578px] min-h-[474px] duration-500 ease-in-out shadow-md border border-[#dbd1d1] bg-white rounded-[10px] flex flex-col items-center form-container
                             sm:min-w-[364px] sm:min-h-[350px] sm:mx-[200px]">
@@ -431,29 +430,21 @@
 
 
 
-        {{-- login --}}
-        <div class="loginPage relative  z-20  overflow-hidden h-screen w-screen m-0 flex flex-col justify-items-center">
-<div class=" flex absolute w-full bg-slate-100 h-full ">
-            <div class="  bg-[#fab416] w-[40%] h-full ">
-
-            </div>
+        {{-- login Page --}}
+    <div class=" relative  z-20  overflow-hidden h-screen w-screen m-0 flex flex-col justify-items-center">
+        <div class=" flex absolute w-full bg-slate-100 h-full ">
+            <div class="  bg-[#fab416] w-[40%] h-full "></div>
             <div class=" bg-slate-100 w-[70%] h-full ">
-                <img class="h-[100%] w-[100%]  object-cover" src="{{ asset('image/loginv2-images/squares.png') }}"
+                <img class="h-[100%] w-[100%]  object-cover" src="{{ asset('image/loginv2-images/squares.png') }}">
             </div> 
         </div>
 
         {{-- login-container --}}
         <div class=" absolute  h-[100vh] w-[100vw]  flex justify-center items-center ">
-
-
             {{-- login-box --}}
             <div class=" w-[1550px] h-[800px] rounded-md overflow-hidden  bg-white shadow-lg ">
-
-
-
-                <div class="relative  flex    w-full  h-full ">
+                <div class="relative  flex   w-full  h-full ">
                     <div class=" relative bg-[#1c1855] w-[35%] h-full flex flex-col  overflow-hidden">
-                        
                         <div class=" w-[100%] h-[100%]  flex flex-col items-center justify-center ">
                             <div class=" w-[80%] h-[70%]  flex flex-col ">
                                 <div class="title border-b-2 border-[#f8f8f8e7] ">
@@ -480,9 +471,6 @@
                                         unaddressed.
                                         </p>
                                 </div>
-
-                                
-
                             </div>
                             <div class="choices w-[100%] flex items-center justify-center gap-4 z-10">
                                 <div class="slide1 h-4 w-4 bg-white rounded-full cursor-pointer  active" onclick="showSlide1()"></div>
@@ -553,12 +541,12 @@
         </div>
         
        
-        </div>
+    </div>
 
-        {{-- background --}}
+    
         
         
-        {{-- /end screen for login --}}
+    
     </div>
 
     <script>
