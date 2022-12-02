@@ -432,10 +432,10 @@
         {{-- screen for login --}}
         <div class="loginPage opacity-100 z-30 h-screen flex flex-col items-center justify-start">
             <div class="logo">
-                <div class="flex gap-3 items-center justify-center">
+                <div class="flex gap-3 items-center justify-center ">
                     <img class="h-[20%] w-[20%]  object-contain" src="{{ asset('image/MagkahiOSA Logo.svg') }}"
                         alt="">
-                    <div>
+                    <div class=" ">
                         <h3 class=' font-black text-5xl sm:text-3xl text-[#1b1855] header-font'>MAGKAHI<span
                                 class="text-[#fab415]">OSA</span> </h3>
                         <p
@@ -465,7 +465,7 @@
                         <input class="input-input" type="password" placeholder="Password" required>
                         <p class="input-warning"></p>
                     </div>
-                    <button class="button" type="submit">Log In</button>
+                    <button class="button " type="submit">Log In</button>
 
                     <div class="hr">
                         <div class="line"></div>

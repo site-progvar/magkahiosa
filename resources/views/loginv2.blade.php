@@ -479,7 +479,7 @@
                             </div>
                         </div>
                         
-                        <div class="absolute w-full h-full z-[0] flex items-start ">
+                        <div class="absolute w-full h-full z-[0] flex items-start  ">
                             <img class="h-[70%] w-full  object-contain mb-[20px] translate-x-[20%] translate-y-[-20%] opacity-5" src="{{ asset('image/loginv2-images/MagkahiOSA Logo.svg') }}">
                         </div>
                     </div>
