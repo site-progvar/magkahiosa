@@ -1,0 +1,44 @@
+@import "../../vendor/filament/forms/dist/module.esm.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+@layer components {
+    .hello {
+        @apply text-green-600;
+    }
+    .input-container {
+        @apply mb-5 w-full relative;
+    }
+    .input-text {
+        @apply font-semibold text-xs text-[#4B5563] m-0 mb-2;
+    }
+
+    .input-input {
+        @apply m-0  py-2 px-[3%] text-[#1F2937] outline-none  bg-white font-medium
+         text-sm border border-[#dbd1d1] focus:ring-0  rounded w-[100%] h-10 focus:border-[#1D4ED8];
+    }
+    .input-warning {
+        @apply m-0 font-semibold text-xs text-red-600 mt-[2px] ml-[2px];
+    }
+
+    .button {
+        @apply border-none rounded bg-[#1D4ED8] hover:bg-[#073dd0] w-full h-[2.5rem] text-white text-[.8rem] cursor-pointer mt-6;
+    }
+    .forgot-pass-text {
+        @apply self-start text-[11px] cursor-pointer z-10 mt-6;
+    }
+    .active {
+        @apply bg-white border-4 border-[#e8bf1a];
+    }
+    .paragraph::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+    }
+}
