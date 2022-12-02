@@ -16,13 +16,11 @@ class User extends Authenticatable implements FilamentUser
 {
     use Notifiable;
     use HasFactory;
-    use Searchable;
     use HasApiTokens;
     use FilamentTrait;
 
     protected $fillable = ['name', 'email', 'password', 'role_id'];
 
-    protected $searchableFields = ['*'];
 
     protected $hidden = ['password', 'remember_token'];
 
