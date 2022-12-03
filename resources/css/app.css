@@ -26,7 +26,7 @@
     }
 
     .input-warning {
-        @apply m-0 font-semibold text-xs text-red-600 mt-[2px] ml-[2px];
+        @apply m-0 font-semibold text-xs text-red-600 mt-1 ml-[2px];
     }
 
     .form-container {
@@ -36,11 +36,19 @@
     }
 
     .button {
-        @apply border-none rounded bg-[#1D4ED8] hover:bg-[#073dd0] w-full h-[2.5rem] text-white text-[.8rem] cursor-pointer mt-6;
+        @apply border-none rounded bg-[#1D4ED8] hover:bg-[#073dd0] w-full h-[2.5rem] text-white text-[.8rem] cursor-pointer mt-6
+                putot:mt-2
+        ;
     }
 
     .logo {
-        @apply flex items-center justify-center z-10 h-[120px] w-[578px] mt-[120px] mb-5 sm:mt-[3vh] sm:h-[120px] sm:w-[278p] sm:mb-[2vh];
+        @apply flex items-center justify-center z-10 h-[120px] w-[578px] mt-[120px] mb-5 
+        sm:mt-[3vh] sm:h-[120px] sm:w-[278p] sm:mb-[2vh] 
+        ssm:w-[98%]
+        taas:mt-[2vh]
+        putot:h-[90px]  putot:mt-[1vh] putot:mb-[1vh]
+        ;
+        
         transition: 600ms ease-in-out;
     }
 
@@ -57,7 +65,9 @@
     }
 
     .forgot-pass-text {
-        @apply self-start text-[11px] pb-[21.672px] cursor-pointer z-10 my-[11.200px];
+        @apply self-start text-[11px] pb-[21.672px] cursor-pointer z-10 my-[11.200px]
+                putot:my-0 putot:pb-[10px]
+        ;
     }
 
 
