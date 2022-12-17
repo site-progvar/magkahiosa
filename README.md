@@ -32,7 +32,15 @@
 
 ### 6. Copy env.example and change it to .env
 
+<<<<<<< HEAD
+<<<<<<< HEAD
     cp .env.example .env 
+=======
+    cp .env.example .env
+>>>>>>> 517001b4191123cd281bfcddad4dafecbd3d108f
+=======
+    cp .env.example .env 
+>>>>>>> bff0ab9864ae11802dc045b5d145a6004c6c2c58
 
 ### 7. Configure env file
 
